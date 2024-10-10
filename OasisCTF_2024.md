@@ -13,7 +13,7 @@ As you set out to warn the OASIS community about the Trojan's infiltration, your
 
 This was the prompt, on going to the said link I reach the website that looked something like this
 
-![Blogpost challenge][Photo one.png]
+![Blogpost challenge](Photo one.png)
 
 Since it is one of those webpage challenge my first instint was to go into inspect element and search for if I can find any functionality to the save button??? Did't find anything
 
