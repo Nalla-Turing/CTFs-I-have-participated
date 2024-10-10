@@ -26,4 +26,26 @@ Following on that I add `/robots.txt` to the url and got into a page giving this
 
 Meaning the /hiddenFlag area is prohibited for everyone, so that means I will need tp try somnething in the console to get the flag output.
 
-So I searched how do we usually get access to this kind of area?????
+So I searched how do we usually get access to this kind of area????? 
+
+It tells me to use different https methods to test the effects but there are so many https method? which one do I use??? 
+To check this I use `curl -X OPTIONS -i https://blogpost.oasis.cryptonite.live`
+and get this
+    HTTP/2 400
+    cache-control: public, max-age=0, must-revalidate
+    content-type: text/html; charset=utf-8
+    date: Thu, 10 Oct 2024 18:00:58 GMT
+    server: Vercel
+    strict-transport-security: max-age=63072000
+    x-vercel-cache: MISS
+    x-vercel-id: bom1::iad1::cntpm-1728583258673-75fa10664b80
+    content-length: 13
+
+    Invalid token
+
+The token is missing, so to find I take a wild guess and find it in cookies and found something very interetsing
+`user_token:"f308d3f1-7f1a-4e8d-a370-6347ea545322"`
+
+Using this I use the options method again
+Now all i need is to check GET and HEAD methods
+    
