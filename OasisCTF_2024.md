@@ -20,10 +20,12 @@ Huhhh it talks about overflowing the memory!!!!!!
 
 Wait we are still able to add our name?? what if i try to spam
 `MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM`
-![Username](/Score.png)
+![Username](/Screen.png)
+
+
 
 Huh???? The score went to 70.... Less gooo progresss
-![Score](/Screen.png)
+![Score](/Score.png)
 
 hmmmmmmm.... Wait a second !!!! 70 is the ASCII of M...
 Then spamming d instead of M I got it to score 100 and got the flag.
