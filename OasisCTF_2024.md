@@ -8,6 +8,36 @@ Ready PLayer?
 *Goooooo*
 <br><br><br>
 
+## Stairway to Heaven
+`The ground beneath you trembles as Tetris blocks rain from the shadows, cascading down like a storm. At first, panic sets in, but then you realize: these blocks aren’t meant to crush you—they’re your escape. Each piece, carefully arranged, could form a staircase to the control room floating above in the void. It’s time to use them strategically and rise to safety. Stack the blocks and find your way out!`
+
+This challenge gives an executable file `./game`
+Running that in wsl gives this
+![message][Message.png]
+
+I tried to convert this into text as i read somwhere that you can actually convert your test into an image file
+And i get the code that gives me the text on convertinf it
+
+Flag `OASIS{v34y_f4ncy_AN5I}`
+
+## Heads up,Tails Down
+`Finally, you step into the admin control room. Decay has overtaken the space—screens flicker, panels glitch, and virus-riddled code runs rampant across every surface. The system is on the brink of collapse. You sit at the central terminal, but it's unresponsive, frozen by the infection. It’s up to you to repair the system and revive the decaying screens. Only then can you regain control.` 
+
+OK so opening the url, you get a png file that is cracked.Easy I will use a png fixer aaaaaand it's not working ofcoursee.
+So i try to find it's meta data using exiftools.
+
+OK it says unknown file type.
+On googling it turns i will need to change it's hex code to make it png file.
+
+I used a hex editor online to do it
+OK so the first 8 bytes needs to `89 50 4E 47 0D 0A 1A 0A` as it determines the type of the file we have
+And changing the next files showing IDHD chunk as `00 00 00 0D 49 48 44 52` with some modification
+
+We get the flag
+
+Flag `OASIS{h34d_c4rr135}`
+<br><br>
+
 ## A rcoky start
 `The game has finally loaded! Yet, as you start to play, a sinking realization dawns: you've been led into a trap. The virus has ensnared you in a loop, wasting precious time. The game is rigged to stall your progress. To save OASIS, you must break free of this digital decoy and bypass the virusâ€™s stalling tactics. Sometimes, you need to overflow the memory's expectations to find a way out.The game is broken; you can't shoot. However, only if you get a score of 100 or more can you get the flag.`
 As the name suggests it was indeed a rocky start :(
