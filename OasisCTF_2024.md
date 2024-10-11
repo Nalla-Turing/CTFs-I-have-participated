@@ -8,6 +8,61 @@ Ready PLayer?
 *Goooooo*
 <br><br><br>
 
+##
+<br><br>
+
+## Knock Knock
+`At last, the key darts towards the door, a keyhole materializes, and the door swings open. Author’s Note: I don’t know about you, but I was definitely growing tired of this key. You find yourself standing at the entrance of a labyrinth. The only way out is to navigate through the labyrinth itself. However, the entrance is guarded by an image recognition system. A QR code is pasted on the wall beside it. Your task is clear: bypass the system to gain entry.`
+
+
+This challenge gives me a QR code but it is dirty.
+I have seen this challenge. 
+All thsoe Games Theory and spending time with matpat came handy.
+
+I edit the qr and briighten upand increase contrast the qr unless it is clear
+Scanning I get the flag
+
+Flag `OASIS{qu3u3r_r3c0v3r3r}`
+<br><br>
+
+## MICROSOFT StrongEdge
+`Upon repairing the QR code, you scan it and discover it contains a file. As you meticulously sift through its contents, nothing of value seems to emerge. The mystery deepens—where could the next clue be hidden?`
+This give us  pptx file with the first slide hvaing some file in it.
+
+I take the text and run it on ROT13 decryptior and get the flag
+
+flag `OASIS{r0t4t0r_0f_pp75}`
+
+<br><br>
+
+## Quench your thrust
+`How could the IOI overlook such a critical flaw? You now possess administrative privileges! Surveying your surroundings, you notice the monitor displaying a series of commands accessible only to the admin. However, another security measure is in place—it’s encrypted, and only the true admin knows the key. Can you crack this encryption scheme?`
+
+Ok this was kinda confusing.......
+We get a text file with some form of cipher but no matter what cipher I use... It doesn't work.
+Using the hint I learn about in popular cipher you can find the cipher by trying to find the most frequently coming up letters.
+This is called `Frequency Analysys`
+
+Using this i find that `Y Q Z J` are repeating. So wit that information
+I get some words forming up...!!!!!!!
+
+So using that an almighty chatgpt I find the decrypted text.
+    AS THE PROTAGONIST STUMBLED INTO THE HEART OF THE IOIS TRAP THE WALLS AROUND HIM FLICKERED WITH SCORCHING HEAT A MASSIVE IMPENETRABLE FIREWALL ROARED IN EVERY DIRECTION CUTTING OFF HIS ESCAPE THE IOI HAD ANTICIPATED HIS INFILTRATION AND THIS WAS THEIR FINAL GAMBIT TO STOP HIM BUT ARTEMIS HAD LEFT HIM WITH A GIFT A COMPUTER TERMINAL IN THE CENTER OF THE CHAMBER THE SCREEN BLINKED TO LIFE AWAITING INPUT WITH A FLASH OF INSPIRATION HE REALISED WHAT HE NEEDED TO DO ADMIN PRIVILEGES HAD BEEN UNLOCKED THE COMMANDS HE EGGSECUTED HERE COULD DISMANTLE THE FIREWALL AND ALLOW HIM TO REACH THE HEART OF THE VIRUS IF HE FOLLOWED THE CORRECT ORDER THE LIST OF ADMIN COMMANDS APPEARED ON THE SCREEN ADMIN COMMAND LIST FIREWALL BYPASS 1 VERIFY THE CURRENT STATUS OF THE FIREWALL SCANNING FOR VULNERABILITIES IN THE DEFENSE SYSTEMS
+    2 DISABLE THE FIREWALLS AUTOREPAIR MECHANISM WHICH REGENERATES ANY BREACHED SECTIONS
+    3 DISPLAY ALL ACTIVE FIREWALL LAYERS THIS REVEALS THE NUMBER OF DEFENSIVE LAYERS AND THEIR RESPECTIVE CONFIGURATIONS
+    4 MANUALLY DISABLE THE THIRD FIREWALL LAYER WHICH HAS BEEN IDENTIFIED AS THE STRONGEST BARRIER PROTECTING THE CORE
+    5 SCAN FOR MALICIOUS PATTERNS THAT MIGHT BE HIDDEN INSIDE THE FIREWALL CODE THIS HELPS NEUTRALISE ANY TRAPS LAID BY IOI
+    6 ISOLATE THE SIGNATURE FILE USED BY IOI TO SUSTAIN THE FIREWALLS INTEGRITY
+    7 OVERRIDE THE FIREWALLS ENCRYPTION WITH THE HIGHEST LEVEL ADMIN PRIVILEGES BREAKING IOIS CONTROL OVER IT
+    8 EGGSECUTE A COMPLETE SHUTDOWN OF ALL FIREWALL LAYERS LEAVING THE SYSTEM UNPROTECTED FOR A BRIEF MOMENT
+    9 RESET THE ACCESS CONTROLS TO OASIS GATEWAYS ALLOWING UNRESTRICTED MOVEMENT THROUGH THE SERVERS THE TERMINAL BEEPED WITH EACH SUCCESSFUL COMMAND EGGSECUTION AND THE HEAT AROUND HIM BEGAN TO FADE WITH EVERY FIREWALL LAYER DEACTIVATED THE PATH FORWARD BECAME CLEARER HE WAS ALMOST THROUGH ONLY ONE FINAL COMMAND TO DISABLE THE LAST OF IOIS TRAPS AND HE WOULD HAVE ACCESS TO THE VIRUS CONTROLS THE FATE OF THE OASIS WAS NOW IN HIS HANDS
+    HTTPS://KATB.IN/YXNZORQJ
+
+flag `oasis{fr3qu3nt_j4!l_br34k1ng_m4k3s_!`t_t00_3asy_fr}
+
+
+<br><br>
+
 ## Stairway to Heaven
 `The ground beneath you trembles as Tetris blocks rain from the shadows, cascading down like a storm. At first, panic sets in, but then you realize: these blocks aren’t meant to crush you—they’re your escape. Each piece, carefully arranged, could form a staircase to the control room floating above in the void. It’s time to use them strategically and rise to safety. Stack the blocks and find your way out!`
 
@@ -19,6 +74,7 @@ I tried to convert this into text as i read somwhere that you can actually conve
 And i get the code that gives me the text on convertinf it
 
 Flag `OASIS{v34y_f4ncy_AN5I}`
+<br><br>
 
 ## Heads up,Tails Down
 `Finally, you step into the admin control room. Decay has overtaken the space—screens flicker, panels glitch, and virus-riddled code runs rampant across every surface. The system is on the brink of collapse. You sit at the central terminal, but it's unresponsive, frozen by the infection. It’s up to you to repair the system and revive the decaying screens. Only then can you regain control.` 
