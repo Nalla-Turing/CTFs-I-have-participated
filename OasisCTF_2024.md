@@ -13,7 +13,7 @@ Ready PLayer?
 
 This challenge gives an executable file `./game`
 Running that in wsl gives this
-![message][Message.png]
+![message](/Message.png)
 
 I tried to convert this into text as i read somwhere that you can actually convert your test into an image file
 And i get the code that gives me the text on convertinf it
