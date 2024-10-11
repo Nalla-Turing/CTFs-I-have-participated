@@ -11,7 +11,25 @@ Ready PLayer?
 ## A rcoky start
 `The game has finally loaded! Yet, as you start to play, a sinking realization dawns: you've been led into a trap. The virus has ensnared you in a loop, wasting precious time. The game is rigged to stall your progress. To save OASIS, you must break free of this digital decoy and bypass the virusâ€™s stalling tactics. Sometimes, you need to overflow the memory's expectations to find a way out.The game is broken; you can't shoot. However, only if you get a score of 100 or more can you get the flag.`
 As the name suggests it was indeed a rocky start :(
-    
+
+We started directlt working on the game code. We installed ghidra and started looking for the machine assembly code.
+It tooks us 5 hours of endless grinf that led us to nowhere.....
+
+Then we read the prompt multiple times
+Huhhh it talks about overflowing the memory!!!!!!
+
+Wait we are still able to add our name?? what if i try to spam
+`MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM`
+![Username](/Score.png)
+
+Huh???? The score went to 70.... Less gooo progresss
+![Score](/Screen.png)
+
+hmmmmmmm.... Wait a second !!!! 70 is the ASCII of M...
+Then spamming d instead of M I got it to score 100 and got the flag.
+
+Flag `OASIS{D0DG3_4LL_TH3_R0CK5_0R_N07}`
+
 <br><br>
 
 ## Comma Separated virus
