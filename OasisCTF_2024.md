@@ -8,7 +8,21 @@ Ready PLayer?
 *Goooooo*
 <br><br><br>
 
-##
+### Since only latest 10 was said, so this will contain only the latest 10 that i managed to solve in the end
+
+## Keynough is enough
+`You find both parts of the key and reach the door, but realize that in order to activate the keyhole you need to decipher an inscription: KHAAH{W1C3J7_C1O3F3G3} on the door. Artemis suggests you WHISPER to it. To crack the code, consider a method that involves a repeating pattern—like adding a touch of vinegar to a recipe to reveal its true flavor.`
+ This is some form of cipher but i don't know what??
+
+ Wait vinegar you said???
+ HHAHAH very clever!!!!
+
+ it must be vigenere cipher but what is the key????
+ hmmmm!!! What if I try WHISPER as it is the one that is in upper charset
+
+ Doing that I get the flag
+
+ flag `OASIS{S1L3N7_V1G3N3R3}`
 <br><br>
 
 ## Knock Knock
