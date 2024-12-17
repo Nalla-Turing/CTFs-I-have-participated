@@ -44,4 +44,14 @@ Now Then using the new original crypted text i rework the `Final.py` using the s
 ## Challenge-3 Tet-riffic
 OK this was a roller coaster
 
-we get a 
+we get a `tetris.pcapng` file and a `tetris.py` file
+It seems that `teris.pcapng` contains some TCP packages
+On diltering it with the help of wireshark, i see that these are keyboard HID inputs.
+
+Now i filter the inputs using wsl code
+`tshark -r traffic.pcapng -Y "usbhid.data.array != 00:00:00:00:00:00 && usb.data_flag" -T fields -e frame.time_epoch -e usbhid.data.array > keystrokes_with_time.txt`
+
+Now i take the inputs into the game file to get a broken qr
+
+After solving the qr using `QRazyBOX`
+I get the flag 
